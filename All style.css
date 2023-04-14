@@ -1,0 +1,179 @@
+*{
+    
+  font-family: sans-serif;
+    
+  box-sizing: border-box;
+}
+body{
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+  
+    
+}
+
+.home .navbar{
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.home img{
+    width: 57px;
+    position: relative;
+    z-index: 10;
+    background-color: transparent;
+ }
+ .home a{
+    margin: 29px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 25px;
+    position: relative;
+    z-index: 10;
+    background-color: transparent;
+    color: #fff;
+ }
+ a:hover{
+    color: blueviolet;
+ }
+
+ /*form*/
+
+ #abc{
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+
+}
+form{
+    width: 90%;
+    max-width: 600px;
+}
+#input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border:1px solid black;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+}
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: rgb(8, 8, 8);
+    cursor: text;
+    transition: 0.2s;
+}
+button{
+    padding: 10px 0;
+    color: rgb(13, 13, 13);
+    outline: none;
+    background: transparent;
+    border: 1px solid black;
+    width: 100%;
+    cursor: pointer;
+}
+input:focus~label,
+
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+top:-35px;
+font-size: 14px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row .input-group{
+    flex-basis:48%;
+}
+
+/*About*/
+
+.home .About{
+    margin-left: 50px;
+    margin-top: 80px;  
+ }
+ .About h1{
+     font-size: 50px;
+     font-family: cursive;
+     color: rgb(110, 223, 235);
+     margin: 0;
+     padding: 0;
+    
+     
+ }
+ .About span{
+    color: #fff;
+    font-family: cursive;
+ }
+ .About p{
+    font-size: 25px;
+    padding-top: 0;
+    margin-top: 0;
+    
+
+ }
+.About-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+ .About-flex img{
+    width: 800px; 
+    padding-left: 100px;
+    
+ }
+ 
+
+ /*Skill*/
+ 
+
+ .home .skill{
+    margin-left: 15%;
+    margin-top: 80px;  
+ }
+ .home h1{
+     font-size: 50px;
+     font-family: cursive;
+     color: rgb(110, 223, 235);
+     margin: 0;
+     padding: 0;
+    
+     
+ }
+ .home ul{
+    font-size: 25px;
+    padding-top: 0;
+    margin-top: 0;
+    
+
+ }
+.skill-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+ .skill-data img{
+    width: 800px; 
+    padding-left: 100px;
+    
+ }

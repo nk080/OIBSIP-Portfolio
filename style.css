@@ -1,0 +1,158 @@
+*{ 
+   background-color: rgb(18, 18, 18);
+  color: white;
+  font-family: sans-serif;
+}
+.home{
+   z-index: 1000;
+   
+}
+.home .navbar{
+   top: 0;
+   left: 0;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.home img{
+   width: 50px;
+   position: relative;
+   z-index: 10;
+   background-color: transparent;
+}
+.home a{
+   margin: 25px;
+   text-decoration: none;
+   transition: 0.3s;
+   font-size: 25px;
+   position: relative;
+   z-index: 10;
+   background-color: transparent;
+}
+.home p{
+   position: relative;
+   z-index: 10;
+   background-color: transparent;
+}
+ a:hover{
+   color: blueviolet;
+}
+
+
+.xyz img{
+   width: 455px; 
+   margin-top: 58px;
+   padding-left: 40%;
+   position: relative;
+   z-index: 10;
+   background-color: transparent;
+}
+
+.home-content{
+   padding-top: 40px;
+   padding-left: 50px;
+   font-size: 20px;
+   max-width: 100%;
+   display: flex;
+   
+}
+.home-content h2{
+   font-size: 35px;
+   position: relative;
+   z-index: 10;
+   background-color: transparent;
+}
+.home-content h1{
+   font-size: 60px;
+   padding: 0;
+   position: relative;
+   z-index: 10;
+   background-color: transparent;
+}
+.home-content h3{
+   font-size: 40px;
+   position: relative;
+   z-index: 10;
+   background-color: transparent; 
+}
+.multi-text span{
+   color: blueviolet;
+   background: transparent;
+}
+.multi-text .first-text{
+   display: inline;
+}
+.multi-text .sec-text{
+   font-size: 40px; 
+}
+.multi-text .cursor{
+   font-size: 40px;
+}
+.sec-text{
+   position: relative;
+   z-index: 10;
+   
+}
+ 
+#typewriter{
+   color: blueviolet;
+   font-weight: bold;
+}
+#cursor{
+   color: blueviolet;
+   animation: blink 1s linear infinite; 
+}
+@keyframes blink{
+   0%{
+      opacity: 100%;
+   }
+   50%{
+      opacity: 0%;
+   }
+}
+.social-media a{
+  font-size: 25px;
+  margin: 5px;
+  padding: 5px;
+  position: relative;
+   z-index: 10;
+   background-color: transparent;
+}
+.resume a{
+   font-size: 25px;
+   border: 2px solid;
+   border-radius: 10px;
+   padding: 5px;
+   position: relative;
+   z-index: 10;
+   background-color: transparent;
+}
+.resume{
+   margin-top: 35px;
+}
+.home video{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100vw;
+   height: 100vh;
+   object-fit: cover;
+   opacity: 0.8;
+   background: fixed;
+}
+.overlay{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgb(235, 193, 241);
+   mix-blend-mode: overlay;
+}
+
+
+
+
+
+
